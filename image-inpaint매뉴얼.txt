@@ -1,0 +1,28 @@
+1. github코드 zip파일 다운: https://github.com/kairess/PConv-Keras
+
+2. h5모델 다운: https://drive.google.com/file/d/1OdbuNJj4gV9KUoknQG063jJrJ1srhBvU/view 
+PConv-Keras-master폴더 하위에 위치
+
+
+3. PConv-Keras-master폴더 위치에서 cmd
+가상환경 생성: conda create -n pkm python=3.6 
+가상환경 활성화: conda activate pkm
+
+4. 패키지 설치
+pip install h5py==2.8.0
+pip install Keras==2.2.4
+pip install Keras-Applications==1.0.6
+pip install Keras-Preprocessing==1.0.5
+pip install keras-tqdm==2.0.1
+pip install matplotlib==3.0.2
+pip install numpy==1.15.4
+pip install pandas==0.23.4
+pip install scipy==1.1.0
+pip install seaborn==0.9.0
+pip install tables==3.4.4
+pip install tensorboard==1.12.2
+pip install tensorflow==1.12.0
+pip install tqdm==4.28.1
+pip install opencv-python==3.4.15.55
+
+5. 가상환경내에서 python realtime.py data/images/05.jpg 
